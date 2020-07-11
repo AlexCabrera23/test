@@ -12,5 +12,4 @@ before_script:
 
 script:
 
-- newman run APIs_Automatizacion/API_Blacklist.postman_collection.json
-# pruebas
+- node_modules/bin/newman run APIs_Automatizacion/API_Blacklist.postman_collection.json
